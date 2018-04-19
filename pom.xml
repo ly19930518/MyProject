@@ -15,6 +15,7 @@
         <module>my-app</module>
         <module>my-cms</module>
         <module>my-app</module>
+        <module>my-users</module>
     </modules>
 
 

@@ -11,6 +11,7 @@
         <module name="my-cms-dao" />
         <module name="my-common" />
         <module name="my-core" />
+        <module name="my-users" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
