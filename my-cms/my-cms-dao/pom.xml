@@ -3,26 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>my-root</artifactId>
+        <artifactId>my-cms</artifactId>
         <groupId>com.myp</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>my-app</artifactId>
-    <packaging>pom</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.myp</groupId>
-            <artifactId>my-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-
-    <modules>
-        <module>my-app-test</module>
-    </modules>
+    <artifactId>my-cms-dao</artifactId>
 
 
 </project>

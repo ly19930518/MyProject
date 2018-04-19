@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/my-app" />
+    <file type="web" url="file://$PROJECT_DIR$/my-cms/my-cms-admin" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

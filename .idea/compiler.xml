@@ -7,7 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my-app-test" />
-        <module name="my-cms" />
+        <module name="my-cms-admin" />
+        <module name="my-cms-dao" />
         <module name="my-common" />
         <module name="my-core" />
       </profile>
