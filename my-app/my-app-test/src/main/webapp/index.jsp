@@ -11,7 +11,7 @@
     var websocket = null;
     //判断当前游览器是否支持
     if('WebSocket' in window){
-        websocket = new WebSocket("ws://192.168.2.15:8900/websocket?userid=b9176a5835044bb4b6a7ecc394e439e3&pwd=8f4b2ff0f31ac9f0");
+        websocket = new WebSocket("ws://www.zevun.cn:8900/websocket?userid=b9176a5835044bb4b6a7ecc394e439e3&pwd=9441809381978e14");
     }else{
         alert("当前游览器不知此websokcet,请更换游览器");
     }

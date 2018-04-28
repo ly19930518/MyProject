@@ -57,14 +57,15 @@ public class webSocketClient {
 
         }
     }
-    public static void main(String[] args){
-       for(int i = 0 ; i < 3000 ; i ++){
+    public static void main(String[] args) throws InterruptedException {
+       for(int i = 0 ; i < 1500 ; i ++){
            new Thread() {
                public void run(){
                    webSocketClient w = new webSocketClient();
                    w.test();
                }
            }.start();
+           Thread.sleep(50);
        }
     }
 
