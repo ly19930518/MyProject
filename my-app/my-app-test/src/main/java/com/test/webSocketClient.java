@@ -29,7 +29,6 @@ public class webSocketClient {
                         if(msg.equals("over")){
                             client.close();
                         }
-
                     }
 
                     @Override

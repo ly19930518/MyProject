@@ -3,6 +3,7 @@ package com.controller;
 import com.dao.model.Dictionary;
 import com.service.TestService;
 import com.test.Test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

@@ -146,6 +146,7 @@ public class CaptchaUtil {
 		return font[random.nextInt(5)];
 	}
 
+
 	// 扭曲方法
 	private void shear(Graphics g, int w1, int h1, Color color) {
 		shearX(g, w1, h1, color);
@@ -166,6 +167,7 @@ public class CaptchaUtil {
 					+ (6.2831853071795862D * (double) phase)
 					/ (double) frames);
 			g.copyArea(0, i, w1, 1, (int) d, 0);
+
 			if (borderGap) {
 				g.setColor(color);
 				g.drawLine((int) d, i, 0, i);

@@ -84,6 +84,4 @@ public class EhCacheUtil {
         }
         return cacheElement.getObjectValue();
     }
-
-
 }
