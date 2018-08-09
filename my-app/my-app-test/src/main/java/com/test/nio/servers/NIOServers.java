@@ -31,9 +31,10 @@ public class NIOServers {
             System.out.println("新链接");
             sc.configureBlocking(false);
             //还可以在用register()方法向Selector注册Channel的时候附加对象
-            sc.register(key.selector(),SelectionKey.OP_READ,ByteBuffer.allocate(BUF_SIZE));
-            key.attach(Math.random());//给连接通道上标识
+            sc.register(key.selector(),SelectionKey.OP_READ,"1");
+
             //Object attachedObj = selectionKey.attachment(); 获取通道表示
+            System.out.println(key.attachment()+"链接成功");
         }
     }
 
@@ -44,14 +45,15 @@ public class NIOServers {
      */
     public static void handleRead(SelectionKey key) throws IOException{
         SocketChannel sc = (SocketChannel)key.channel();
-        ByteBuffer buf = (ByteBuffer)key.attachment();
+        ByteBuffer buf = ByteBuffer.allocate(BUF_SIZE); //(ByteBuffer)key.attachment();
         long bytesRead = sc.read(buf);
         while(bytesRead>0){
             buf.flip();
+            StringBuffer stringBuffer = new StringBuffer();
             while(buf.hasRemaining()){
-                System.out.print((char)buf.get());
+                stringBuffer.append((char)buf.get());
             }
-            System.out.println();
+            System.out.println("id:"+key.attachment() +" / "+stringBuffer.toString());
             buf.clear();
             bytesRead = sc.read(buf);
         }
@@ -78,9 +80,6 @@ public class NIOServers {
     public static void selector(){
         Selector selector = null;
         ServerSocketChannel ssc = null;
-
-
-
         try{
             selector = Selector.open();
             ssc = ServerSocketChannel.open();//Selector的创建

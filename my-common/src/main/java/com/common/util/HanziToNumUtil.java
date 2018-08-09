@@ -1,9 +1,14 @@
 package com.common.util;
 
+import java.net.URLEncoder;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 public class HanziToNumUtil {
+
+    private static String percentStr = "百分之";
+
     // 没有考虑兆及更大单位情况
     public static long chnNum2Digit(String chnNum) {
         // initialize map
@@ -163,9 +168,9 @@ public class HanziToNumUtil {
      * 判断是否属于百分比
      */
     public static int isBFB(String s){
-        String strs = "百分之";
-        return s.indexOf(strs);
+        return s.indexOf(percentStr);
     }
+
     /**
      * 判断是否属于数字
      * @param s
@@ -180,110 +185,252 @@ public class HanziToNumUtil {
         }
     }
     /**
+     * 处理百分比
+     * 对百分之(%) 进行处理
+     */
+    public static String HandlePercent(String str){
+        String resstr = "";
+        String[] arrs  = str.split("");
+        int percentIndex  = str.indexOf(percentStr);
+        if(percentIndex != -1 && percentIndex + 2 != arrs.length){
+            //存在% 需要进行转换
+            String words = "";
+            int index = 0;
+            for(int i = percentIndex + 3 ; i < arrs.length ; i ++ ){
+                String tempword = arrs[i];
+                index = i;
+                 if(isNum(tempword)){
+                     //是汉字
+                     words += tempword;
+                 }else{
+                     //都不是中断
+                     if(words.length() > 0 ){
+                         //存在需要转换的数字
+                         long reswords = chnNum2Digit(words);
+                         //拼接前段
+                         for(int j = 0 ; j < percentIndex ; j ++){
+                             resstr += arrs[j];
+                         }
+                         resstr = resstr + reswords;
+                         resstr = resstr + "%";
+                         //拼接后段
+                         for(int k = index ;  k < arrs.length ; k ++){
+                             resstr += arrs[k];
+                         }
+                         return HandlePercent(resstr);
+                     }else{
+                         //百分比不成立
+                         String qstr = "";
+                         //拼接前段
+                         for(int j = 0 ; j < percentIndex ; j ++){
+                             qstr += arrs[j];
+                         }
+                         //拼接后段
+                         String hstr = "";
+                         for(int k = index ;  k < arrs.length ; k ++){
+                             hstr += arrs[k];
+                         }
+                         return qstr+percentStr+HandlePercent(hstr);
+                     }
+                 }
+
+                 //如果是最后一位 则进行汉字 转换 成 数字
+                 if( i == arrs.length -1 && words.length() > 0 ){
+                     //存在需要转换的数字
+                     long reswords = chnNum2Digit(words);
+                     //拼接前段
+                     for(int j = 0 ; j < percentIndex ; j ++){
+                         resstr += arrs[j];
+                     }
+                     resstr = resstr + reswords;
+                     resstr = resstr + "%";
+                     return HandlePercent(resstr);
+                 }
+            }
+        }
+        return str;
+    }
+    /**
+     *  处理百分比
+     *  针对百分比后面是数字的
+     */
+    public static String HandlePercentNumber(String str){
+        String resstr = "";
+        String[] arrs  = str.split("");
+        int percentIndex  = str.indexOf(percentStr);
+        if(percentIndex != -1 && percentIndex + 2 != arrs.length){
+            //存在% 需要进行转换
+            String words = "";
+            int index = 0;
+            for(int i = percentIndex + 3 ; i < arrs.length ; i ++ ){
+                String tempword = arrs[i];
+                index = i;
+                if(tempword.matches("[0-9]+")){
+                    //是数字
+                    words += tempword;
+                }else{
+                    //都不是中断
+                    if(words.length() > 0 ){
+                        //拼接前段
+                        for(int j = 0 ; j < percentIndex ; j ++){
+                            resstr += arrs[j];
+                        }
+                        resstr = resstr + words;
+                        resstr = resstr + "%";
+                        //拼接后段
+                        for(int k = index ;  k < arrs.length ; k ++){
+                            resstr += arrs[k];
+                        }
+                        return HandlePercentNumber(resstr);
+                    }else{
+                        String qstr = "";
+                        //拼接前段
+                        for(int j = 0 ; j < percentIndex ; j ++){
+                            qstr += arrs[j];
+                        }
+
+                        //拼接后段
+                        String hstr = "";
+                        for(int k = index ;  k < arrs.length ; k ++){
+                            hstr += arrs[k];
+                        }
+                        return qstr+percentStr+HandlePercentNumber(hstr);
+                    }
+                }
+
+                //如果是最后一位 则进行汉字 转换 成 数字
+                if( i == arrs.length -1  && words.length() > 0 ){
+                    //拼接前段
+                    for(int j = 0 ; j < percentIndex ; j ++){
+                        resstr += arrs[j];
+                    }
+                    resstr = resstr + words;
+                    resstr = resstr + "%";
+                    return HandlePercentNumber(resstr);
+                }
+            }
+        }
+        return str;
+    }
+
+
+    public static String ChatoNumber(String str){
+        //拆分字符串 并对相应的字符串进行处理
+        String[] arrs = str.split("");
+        String words = "";
+        int index = 0;
+        for(int i =  0 ; i < arrs.length ; i ++ ){
+            String tempword = arrs[i];
+            index = i;
+            if(isNum(tempword)){
+                //是汉字
+                words += tempword;
+            }else{
+                //都不是中断
+                if(words.length() > 0 ){
+                    //存在需要转换的数字
+                    long reswords = chnNum2Digit(words);
+                    if(reswords > 9){
+                        words = reswords+"";
+                    }else if(reswords <= 9 && "度".equals(tempword)){ //摄氏度
+                        //如果个位数字 后面跟着度 则生效
+                        words = reswords+"";
+                    }
+                    String hstr = "";
+                    for(int j = i ; j < arrs.length ; j++){
+                        hstr += arrs[j];
+                    }
+                    return words+""+ChatoNumber(hstr);
+                }else{
+                    String hstr = "";
+                    for(int j = i+1 ; j < arrs.length ; j++){
+                        hstr += arrs[j];
+                    }
+                    return tempword+""+ChatoNumber(hstr);
+                }
+            }
+            if( i == arrs.length -1  && words.length() > 0){
+                long reswords = chnNum2Digit(words);
+                if(reswords > 9){
+                    words = reswords+"";
+                }else if(reswords <= 9 && "度".equals(tempword)){ //摄氏度
+                    //如果个位数字 后面跟着度 则生效
+                    words = reswords+"";
+                }
+                return words;
+            }
+        }
+        return str;
+    }
+
+    /**
+     * 对 》= 10 以下的汉字转换成数字（例子：二五 = 25  ）
+     * @param str
+     * @return
+     */
+    public static String ConvertAll(String str){
+        String[] strs = str.split("");
+        String restr = "";
+        for(String s : strs){
+            if(isNum(s)){
+                long number = chnNum2Digit(s);
+                if(number < 10 ){
+                    if(number == 0 && !s.equals("零")){
+                        restr += s;
+                    }else{
+                        restr += number;
+                    }
+
+                }else{
+                    restr += s;
+                }
+
+            }else{
+                restr += s;
+            }
+        }
+        return restr;
+    }
+    /**
      * 处理字符串
      * 找出 百分比字符串、数字字符串
      * @return
      */
-    public static  String HandleStr(String src){
-        String reStr = "";
-        //处理如果出现百分比字符串
-        boolean isover = false;
-        while(!isover){
-            int isbfb = isBFB(src);
-            if(isbfb != -1){
-                //存在
-                String tempHead = src.substring(0,isbfb);
-                String tempin = src.substring(isbfb,isbfb+3);//取出百分比
-                String tempAfter = src.substring(isbfb+3,src.length());
-                //获取百分比数字
-                String[] tempAfters = tempAfter.split("");
-                String tempsuzis = "";
-                long suzi = 0;
-                for(int i = 0 ; i < tempAfters.length ;  i++){
-                    String af = tempAfters[i];
-                    if(isNum(af)){
-                        tempsuzis += af;
-                    }else{
-                        //不存在
-                        if(i == 0){//第一位不是 则认为不是%格式忽略  并用 *** 格式替换掉 防止下次在次进入
-                            tempin = "***";
-                        }else{
-                            suzi = chnNum2Digit(tempsuzis);
-                            tempin = "%";
-                        }
-                        break;
-                    }
-                    //如果是数字结尾
-                    if(!"".equals(tempsuzis) && i ==  tempAfters.length - 1){
-                        tempin = "%";
-                        suzi +=  chnNum2Digit(tempsuzis);
-                    }
-                }
-                if("%".equals(tempin)){
-                    src = tempHead+""+ tempAfter.replace(tempsuzis,suzi == 0 ? "": (suzi+"")+""+tempin);
-                }else{
-                    src = tempHead+""+tempin+""+ tempAfter.replace(tempsuzis,suzi == 0 ? "": (suzi+""));
-                }
-            }else{
-                //拆分字符串 并对相应的字符串进行处理
-                String tempStr = "";
-                String tempsuzis = "";
-                String[] srcs = src.split("");
-                for(int i = 0 ; i < srcs.length ;  i++){
-                       String temp =  srcs[i];
-                       if(isNum(temp)){
-                           tempsuzis += temp;
-                       }else{
-                           //中断
-                           if(!"".equals(tempsuzis)){
-                               //如果数字是属于各位则忽略 || 如果下一位是跟随着“度” 则转数字
-                               //正常十 以上数字进行转换
-                               long resnum = chnNum2Digit(tempsuzis);
-                               if(resnum > 9){
-                                   tempStr += resnum;
-                                   tempsuzis = "";//赋值为空  防止重复转换
-                               }else if(resnum <= 9 && "度".equals(temp)){ //摄氏度
-                                   //如果个位数字 后面跟着度 则生效
-                                   tempStr += resnum;
-                                   tempsuzis = "";//赋值为空  防止重复转换
-                               }else{
-                                   tempStr += tempsuzis;//拼接字符
-                                   tempsuzis = "";//赋值为空  防止重复转换
-                               }
-                           }
-                           tempStr += temp;
-                       }
-                }
-
-                // 循环完毕 ，转换未转换的数字（防止数字结尾）
-                if(!"".equals(tempsuzis)){
-                    //如果数字是属于各位则忽略 || 如果下一位是跟随着“度” 则转数字
-                    //正常十 以上数字进行转换
-                    long resnum = chnNum2Digit(tempsuzis);
-                    if(resnum > 9){
-                        tempStr += resnum;
-                        tempsuzis = "";//赋值为空  防止重复转换
-                    }else{
-                        tempStr += tempsuzis;//拼接字符
-                        tempsuzis = "";//赋值为空  防止重复转换
-                    }
-                }
-                src = tempStr;
-
-                isover = true;
-            }
+    public static  String HandleStrUrl(String str){
+        str = str.replaceAll(" ","");
+        str = HandlePercent(str);
+        str = HandlePercentNumber(str);
+        str = ChatoNumber(str);
+        str =  ConvertAll(str);
+        try{
+            str = URLEncoder.encode(str,"utf-8");
+        }catch (Exception e){
+            e.printStackTrace();
         }
-        //还原替换符
-        src  = src.replace("***","百分之");
-        return src;
+        return str;
+    }
+    /**
+     * 处理字符串
+     * 找出 百分比字符串、数字字符串
+     * @return
+     */
+    public static  String HandleStr(String str){
+        str = str.toUpperCase();
+        str = str.replaceAll(" ","");
+        str = HandlePercent(str);
+        str = HandlePercentNumber(str);
+        str = ChatoNumber(str);
+        str =  ConvertAll(str);
+        return str;
     }
 
     public static void main(String[] args) {
         System.out.println("".length());
-        String str = "七百分之一千二百百百五十八万亿1零三千三百二十一我想打开213一4度";
+        String str = "零七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度 二五";//七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度
+        long stime = new Date().getTime();
         System.out.println(HandleStr(str));
+        long etime = new Date().getTime();
+        System.out.println((etime - stime) +"耗时");
     }
-
-
 
 }
