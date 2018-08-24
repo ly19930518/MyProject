@@ -74,6 +74,7 @@ public class MyLoggerTest<T> {
             }
         });
         t2.start();
+
     }
 
 

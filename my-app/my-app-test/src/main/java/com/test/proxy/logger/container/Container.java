@@ -21,7 +21,7 @@ public class Container {
             e.printStackTrace();
         }
         if(obj != null){
-            //假如现在有通用日志
+            //模拟aop 实现通用日志
             MyLoggerHandler handler = new MyLoggerHandler(obj);
             Object proxy = Proxy.newProxyInstance(classz.getClassLoader(),classz.getInterfaces(),handler);
             System.out.println(classz.getName()+"初始化成功");

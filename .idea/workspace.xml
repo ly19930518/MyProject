@@ -8,10 +8,50 @@
   <component name="ChangeListManager">
     <list default="true" id="da1fc8b0-a930-4342-bc07-02b28d25e9d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/my-app-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/my-app-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/bean/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/bean/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/dao/dao/DictionaryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/dao/dao/DictionaryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/dao/model/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/dao/model/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/plugin/EncryptPropertyPlaceholderConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/plugin/EncryptPropertyPlaceholderConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/service/TestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/exception/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/exception/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/io/IoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/io/IoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/servers/IOServers.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/servers/IOServers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/servers/NIOServers.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/servers/NIOServers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-common/src/main/java/com/common/util/HanziToNumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-common/src/main/java/com/common/util/HanziToNumUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-common/target/classes/com/common/util/HanziToNumUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-common/target/classes/com/common/util/HanziToNumUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/nio/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/HelloImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/HelloImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/MyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/MyInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/container/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/container/Container.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/factory/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/factory/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/handler/MyLoggerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/handler/MyLoggerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/handler/MyLoggerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/handler/MyLoggerHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/logger/MyLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/logger/MyLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/logger/MyLoggerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/logger/MyLoggerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/BusinessClassService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/BusinessClassService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/BusinessClassServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/BusinessClassServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/logger/test/MyLoggerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/proxy/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/test/webSocketClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/util/AESUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/my-app-test/target/classes/com/util/AESUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-cms/my-cms-admin/my-cms-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-cms/my-cms-admin/my-cms-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-cms/my-cms-dao/my-cms-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-cms/my-cms-dao/my-cms-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-cms/my-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-cms/my-cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-common/my-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-common/my-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-core/my-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-core/my-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/my-users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/my-users.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,33 +72,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BusinessClassServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/BusinessClassServiceImpl.java">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/array/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="366">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#705#713#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/logger/MyLogger.java">
+      <file leaf-file-name="LinkedHashMapSample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/map/LinkedHashMapSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLoggerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/logger/MyLoggerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="759">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,92 +97,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserService.java">
+      <file leaf-file-name="NIOServers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="343">
+              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserServiceImpl.java">
+      <file leaf-file-name="NioCopy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/file/NioCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLoggerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="251">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLoggerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/nio/channels/FileChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="155" column="40" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOServers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/IOServers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLoggerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1551#2039#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2094#2582#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#184#199#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLoggerHandler2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/factory/ProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="527">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,14 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-common/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/generator/PaginationMysqlPlugin.java" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/generator/CommentPlugin.java" />
-        <option value="$PROJECT_DIR$/my-common/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/my-common/pom.xml" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/my-common/src/main/java/com/common/util/SpringContextUtil.java" />
-        <option value="$PROJECT_DIR$/my-common/src/main/java/com/common/base/BaseInterface.java" />
         <option value="$PROJECT_DIR$/my-common/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/my-common/src/main/resources/springMVC-servlet.xml" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/resources/springMVC-servlet.xml" />
@@ -219,7 +200,6 @@
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/test.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/IOServers.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/client/Client.java" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/exception/Test.java" />
         <option value="$PROJECT_DIR$/my-common/src/main/java/com/common/util/HanziToNumUtil.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/test.java" />
@@ -230,10 +210,19 @@
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserService.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/factory/ProxyFactory.java" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java" />
-        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler2.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/CountOr.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/CompactCounter.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/IntegerTest.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/Counter.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler2.java" />
         <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/array/test.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/map/LinkedHashMapSample.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/file/CopyFileByChannel.java" />
+        <option value="$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/file/NioCopy.java" />
       </list>
     </option>
   </component>
@@ -296,9 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,6 +358,67 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="integer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,34 +433,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
               <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -428,48 +447,6 @@
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
               <item name="logger" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -567,6 +544,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,7 +559,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -611,25 +591,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyLoggerTest">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.nio.client.Client" />
+  <component name="RunManager" selected="Application.NioCopy">
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.lang.integer.IntegerTest" />
       <module name="my-app-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.nio.client.*" />
+          <option name="PATTERN" value="com.test.lang.integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HanziToNumUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.util.HanziToNumUtil" />
-      <module name="my-common" />
+    <configuration name="LinkedHashMapSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.map.LinkedHashMapSample" />
+      <module name="my-app-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.common.util.*" />
+          <option name="PATTERN" value="com.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -645,13 +625,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.exception.Test" />
+    <configuration name="NioCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.nio.file.NioCopy" />
       <module name="my-app-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.exception.*" />
+          <option name="PATTERN" value="com.test.nio.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -659,13 +639,13 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.proxy.test" />
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.array.test" />
       <module name="my-app-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.proxy.*" />
+          <option name="PATTERN" value="com.test.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -781,19 +761,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.HanziToNumUtil" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.MyLoggerTest" />
+      <item itemvalue="Application.IntegerTest" />
+      <item itemvalue="Application.test (1)" />
+      <item itemvalue="Application.LinkedHashMapSample" />
+      <item itemvalue="Application.NioCopy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NioCopy" />
+        <item itemvalue="Application.LinkedHashMapSample" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.IntegerTest" />
         <item itemvalue="Application.MyLoggerTest" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.HanziToNumUtil" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -833,19 +813,28 @@
       <workItem from="1531128318243" duration="2108000" />
       <workItem from="1532055246127" duration="1907000" />
       <workItem from="1533706725161" duration="1033000" />
-      <workItem from="1533794442833" duration="10612000" />
+      <workItem from="1533794442833" duration="12228000" />
+      <workItem from="1533867985562" duration="13614000" />
+      <workItem from="1534124611241" duration="3256000" />
+      <workItem from="1534324657140" duration="65000" />
+      <workItem from="1534485067223" duration="8156000" />
+      <workItem from="1534732046774" duration="2878000" />
+      <workItem from="1534816148461" duration="9465000" />
+      <workItem from="1534902613822" duration="10034000" />
+      <workItem from="1534989179437" duration="2096000" />
+      <workItem from="1534995060501" duration="11010000" />
+      <workItem from="1535075337343" duration="15470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235999000" />
+    <option name="totallyTimeSpent" value="313659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51492536" side_tool="true" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51759064" side_tool="true" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3291536" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07356077" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -855,7 +844,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4921875" weight="0.30648535" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914712" weight="0.30546623" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49791667" weight="0.33158997" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -863,10 +852,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48507464" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4824094" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -947,76 +936,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/io/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/ui/context/support/UiApplicationContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="179" column="80" selection-start-line="179" selection-start-column="80" selection-end-line="179" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="334" column="56" lean-forward="true" selection-start-line="334" selection-start-column="56" selection-end-line="334" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/plugin/EncryptPropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-common/src/main/java/com/common/db/DataSourceEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-common/src/main/java/com/common/util/MybatisGeneratorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2032">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-common/src/main/java/com/common/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-common/src/main/java/com/common/util/ZhengAdminUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1157,13 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/IOServers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/net/URLEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3703">
@@ -1199,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -1227,15 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,59 +1144,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/BusinessClassServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="92">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#184#199#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/factory/ProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1313,42 +1165,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/logger/MyLoggerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="138">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/IntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3381">
+          <caret line="199" column="26" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7981">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/container/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/lang/integer/CompactCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/map/LinkedHashMapSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/NIOServers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="155" column="40" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="436" column="43" lean-forward="true" selection-start-line="436" selection-start-column="43" selection-end-line="436" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/array/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/test/MyLoggerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="527">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1551#2039#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2094#2582#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/servers/IOServers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/proxy/logger/handler/MyLoggerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/my-app-test/src/main/java/com/test/nio/file/NioCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
