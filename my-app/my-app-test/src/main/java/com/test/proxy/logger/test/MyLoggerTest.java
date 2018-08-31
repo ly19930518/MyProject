@@ -15,6 +15,7 @@ import java.util.Map;
 
 public class MyLoggerTest<T> {
     public static void main(String[] args) {
+
         /** 实例化真实项目中业务类 **/
         BusinessClassService businessClassService = new BusinessClassServiceImpl();
 //        /** 日志类handler **/
