@@ -426,7 +426,7 @@ public class HanziToNumUtil {
 
     public static void main(String[] args) {
         System.out.println("".length());
-        String str = "零七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度 二五";//七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度
+        String str = "零七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度 二五  fff 5%";//七百分之5一千 二百百百 五十八*万,,1.一亿零!三千三百二70     十一我想打开213一4度
         long stime = new Date().getTime();
         System.out.println(HandleStr(str));
         long etime = new Date().getTime();
